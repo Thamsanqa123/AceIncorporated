@@ -1,3 +1,4 @@
+
 # AceInc — Smart Expense Tracker
 
 > **Track smarter. Save better. Boss your budget.**
@@ -13,7 +14,7 @@ AceInc is an Android expense tracking application built for students and young p
 
 | Screen | Preview |
 |--------|---------|
-| Animated Splash Screen | ![Dashboard](file:///C:/Users/JIZO/Downloads/budget%20boss.jpeg)|
+| Animated Splash Screen | <img width="720" height="1600" alt="budget boss" src="https://github.com/user-attachments/assets/e77f0ecb-6f66-4dea-bc7c-6fdad70089fe" />|
 | Account — Username Display | *(add screenshot)* |
 | Dashboard | *(add screenshot)* |
 | Add Expense | *(add screenshot)* |
