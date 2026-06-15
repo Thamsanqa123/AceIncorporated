@@ -20,10 +20,10 @@ AceInc is an Android expense tracking application built for students and young p
 | Dashboard and chart analytics | <img width="200" height="400" alt="WhatsApp Image 2026-06-15 at 14 15 43" src="https://github.com/user-attachments/assets/f19bbe94-c0b8-493a-aebd-6b9dd04a66f1" />
 |
 | Add Expense | *(add screenshot)* |
-| Budget Boss Game | <img width="200" height="400" alt="budget boss" src="https://github.com/user-attachments/assets/e77f0ecb-6f66-4dea-bc7c-6fdad70089fe" />
- |
+| Budget Boss Game | <img width="200" height="400" alt="budget boss" src="https://github.com/user-attachments/assets/e77f0ecb-6f66-4dea-bc7c-6fdad70089fe" /> <img width="720" height="1600" alt="WhatsApp Image 2026-06-15 at 14 15 42 (1)" src="https://github.com/user-attachments/assets/f9011da2-c256-4d6a-8e97-6ddd32785e7b" /> |
 
 ---
+
 
 ## Purpose & Problem Statement
 
