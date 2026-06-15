@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "569579693053",
+    "project_id": "ace-inc-c7365",
+    "storage_bucket": "ace-inc-c7365.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569579693053:android:fac04fc60038af925bef94",
+        "android_client_info": {
+          "package_name": "com.example.aceinc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG8wK9WznQ9SN_ORlX85IKGPDZthNWij8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

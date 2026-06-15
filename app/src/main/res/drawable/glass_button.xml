@@ -1,0 +1,22 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Transparent glass look -->
+    <solid android:color="#33FFFFFF"/>
+
+    <!-- Rounded corners -->
+    <corners android:radius="20dp"/>
+
+    <!-- Light border -->
+    <stroke
+        android:width="1dp"
+        android:color="#66FFFFFF"/>
+
+    <!-- Padding inside -->
+    <padding
+        android:left="12dp"
+        android:top="8dp"
+        android:right="12dp"
+        android:bottom="8dp"/>
+
+    <gradient android:alpha="0.9" />
+</shape>

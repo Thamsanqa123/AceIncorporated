@@ -1,0 +1,111 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/bg_dark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--  BACKGROUND LOGO -->
+    <ImageView
+        android:src="@drawable/ace_logo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:alpha="0.05"
+        android:scaleType="centerInside"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--  TOP BAR -->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/backBtn"
+                    android:text="←"
+                    android:background="@drawable/glass_button"
+                    android:textColor="@color/text_white"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"/>
+
+                <TextView
+                    android:text="Edit Expense"
+                    android:textColor="@color/text_white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <!--  FORM CARD -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/glass_button"
+                android:padding="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- TITLE -->
+                <EditText
+                    android:id="@+id/editTitle"
+                    android:hint="Expense Title"
+                    android:textColor="@color/text_white"
+                    android:textColorHint="@color/text_fade"
+                    android:backgroundTint="@color/purple_light"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <!-- AMOUNT -->
+                <EditText
+                    android:id="@+id/editAmount"
+                    android:hint="Amount (R)"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/text_white"
+                    android:textColorHint="@color/text_fade"
+                    android:backgroundTint="@color/purple_light"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <!-- CATEGORY -->
+                <EditText
+                    android:id="@+id/editCategory"
+                    android:hint="Category"
+                    android:textColor="@color/text_white"
+                    android:textColorHint="@color/text_fade"
+                    android:backgroundTint="@color/purple_light"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <!-- SAVE BUTTON -->
+                <Button
+                    android:id="@+id/updateBtn"
+                    android:text="Update Expense"
+                    android:textColor="@color/text_white"
+                    android:background="@drawable/glass_button"
+                    android:layout_marginTop="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

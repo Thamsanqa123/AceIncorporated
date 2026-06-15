@@ -1,0 +1,61 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/bg_dark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--  FADED LOGO -->
+    <ImageView
+        android:src="@drawable/ace_logo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:alpha="0.05"
+        android:scaleType="centerInside"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--  HEADER -->
+        <TextView
+            android:text="Your Expenses"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_white"
+            android:letterSpacing="0.05"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Track your spending "
+            android:textColor="@color/text_fade"
+            android:textSize="13sp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!--  GLASS CONTAINER -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/glass_button"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:clipToPadding="false"
+                android:paddingTop="10dp"
+                android:paddingBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

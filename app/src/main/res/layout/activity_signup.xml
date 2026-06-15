@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark">
+
+    <!-- Background Glow -->
+    <View
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:background="@drawable/glow_circle"
+        android:alpha="0.12"/>
+
+    <!-- Background Logo -->
+    <ImageView
+        android:src="@drawable/ace_logo"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:alpha="0.04"
+        android:scaleType="centerInside"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="24dp">
+
+            <!-- Logo -->
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ace_logo"/>
+
+            <!-- App Name -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ACE INCORPORATED"
+                android:textColor="@color/purple_light"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <!-- Subtitle -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create your financial future"
+                android:textColor="@color/text_fade"
+                android:textSize="15sp"
+                android:layout_marginTop="4dp"/>
+
+            <!-- Glass Card -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/glass_button"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Create Account"
+                    android:textColor="@color/text_white"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <!-- Email -->
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:hint="Email Address"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/text_white"
+                    android:textColorHint="@color/text_fade"
+                    android:backgroundTint="@color/purple_light"/>
+
+                <!-- Username -->
+
+                <EditText
+                    android:id="@+id/newUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:hint="Choose Username"
+                    android:textColor="@color/text_white"
+                    android:textColorHint="@color/text_fade"
+                    android:backgroundTint="@color/purple_light"/>
+
+                <!-- Password -->
+
+                <EditText
+                    android:id="@+id/newPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:hint="Create Password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/text_white"
+                    android:textColorHint="@color/text_fade"
+                    android:backgroundTint="@color/purple_light"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Minimum 6 characters"
+                    android:textColor="@color/text_fade"
+                    android:textSize="12sp"
+                    android:layout_marginTop="5dp"/>
+
+                <!-- Create Button -->
+
+                <Button
+                    android:id="@+id/createAccountBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Create Account"
+                    android:textAllCaps="false"
+                    android:textColor="@color/text_white"
+                    android:textSize="16sp"
+                    android:background="@drawable/glass_button"/>
+
+            </LinearLayout>
+
+            <!-- Security Message -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🔒 Your information is securely protected"
+                android:textColor="@color/text_fade"
+                android:textSize="13sp"
+                android:layout_marginTop="20dp"/>
+
+            <!-- Footer -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Budget Smarter • Save More • Grow Faster"
+                android:textColor="@color/purple_light"
+                android:textSize="13sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

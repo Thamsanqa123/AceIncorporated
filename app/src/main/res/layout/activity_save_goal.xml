@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@color/bg_dark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Budget Goals"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_white"/>
+
+    <EditText
+        android:id="@+id/minGoalInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Minimum Goal"
+        android:textColor="@color/text_white"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/maxGoalInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Maximum Goal"
+        android:textColor="@color/text_white"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/saveGoalBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Goal"
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>

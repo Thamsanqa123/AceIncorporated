@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@color/bg_dark">
+
+    <TextView
+        android:id="@+id/gameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Budget Boss"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_white"/>
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Turn"
+        android:textSize="18sp"
+        android:textColor="@color/purple_light"
+        android:layout_marginTop="10dp"/>
+
+    <GridLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="30sp"/>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="New Game"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/rewardsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rewards"
+        android:background="@drawable/glass_button"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

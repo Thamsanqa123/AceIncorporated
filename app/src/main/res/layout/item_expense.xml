@@ -1,0 +1,79 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="14dp"
+
+    android:elevation="8dp"
+    android:background="@drawable/glass_button"
+    android:padding="16dp">
+
+    <!-- 💰 AMOUNT -->
+    <TextView
+        android:id="@+id/cardAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R 0.00"
+        android:textColor="@color/purple_light"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.05" />
+
+    <!-- 🧾 TITLE -->
+    <TextView
+        android:id="@+id/cardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expense Title"
+        android:textColor="@color/text_white"
+        android:textSize="16sp"
+        android:layout_marginTop="6dp" />
+
+    <!-- 🏷 CATEGORY -->
+    <TextView
+        android:id="@+id/cardCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textColor="@color/text_fade"
+        android:layout_marginTop="2dp" />
+
+    <!-- 📅 DATE -->
+    <TextView
+        android:id="@+id/cardDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textColor="@color/text_fade"
+        android:layout_marginTop="2dp" />
+
+    <!-- 🔘 ACTIONS -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/editBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Edit"
+            android:background="@drawable/glass_button"
+            android:textColor="@color/text_white" />
+
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Delete"
+            android:background="@drawable/glass_button"
+            android:textColor="@color/purple_light"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

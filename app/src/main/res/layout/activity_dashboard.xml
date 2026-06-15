@@ -1,0 +1,183 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/bg_dark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- BACKGROUND LOGO -->
+    <ImageView
+        android:src="@drawable/ace_logo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:alpha="0.05"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- TOP BAR -->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/backBtn"
+                    android:text="←"
+                    android:background="@drawable/glass_button"
+                    android:textColor="@color/text_white"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"/>
+
+                <TextView
+                    android:text="Dashboard"
+                    android:textColor="@color/text_white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/accountBtn"
+                    android:text="👤"
+                    android:background="@drawable/glass_button"
+                    android:textColor="@color/text_white"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"/>
+            </LinearLayout>
+
+            <!-- BALANCE -->
+            <TextView
+                android:text="Your Balance"
+                android:textColor="@color/text_fade"
+                android:textSize="16sp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/balanceText"
+                android:text="R 0.00"
+                android:textColor="@color/purple_light"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!-- 🔴 POINTS (NEW) -->
+            <TextView
+                android:id="@+id/pointsText"
+                android:text="Your Points: 0"
+                android:textColor="#FF4D4D"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/analysisText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Expense Analysis"
+                android:textColor="@color/text_white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/goalText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Goal: R0 - R0"
+                android:textColor="@color/text_white"
+                android:textSize="16sp"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/remainingText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remaining: R0"
+                android:textColor="@color/purple_light"
+                android:textSize="16sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/statusGoalText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:textColor="@color/text_white"
+                android:textSize="16sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"/>
+
+
+
+            <!-- ACTION CARD -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/glass_button"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/addExpenseBtn"
+                    android:text="Add Expense"
+                    android:background="@drawable/glass_button"
+                    android:textColor="@color/text_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/statsBtn"
+                    android:text="Analytics"
+                    android:background="@drawable/glass_button"
+                    android:textColor="@color/text_white"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/viewExpensesBtn"
+                    android:text="Expense History"
+                    android:background="@drawable/glass_button"
+                    android:textColor="@color/text_white"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:id="@+id/goalBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Budget Goals"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/glass_button"
+                    android:textColor="@color/text_white"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

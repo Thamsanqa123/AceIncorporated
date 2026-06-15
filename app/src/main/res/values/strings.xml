@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Ace.inc</string>
+    <string name="title_activity_landing">LandingActivity</string>
+</resources>

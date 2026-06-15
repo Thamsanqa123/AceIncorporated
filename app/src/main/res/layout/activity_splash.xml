@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050505">
+
+    <!-- Glow -->
+    <View
+        android:id="@+id/backgroundGlow"
+        android:layout_width="420dp"
+        android:layout_height="420dp"
+        android:layout_gravity="center"
+        android:background="@drawable/glow_circle"
+        android:alpha="0.2" />
+
+    <!-- Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/aceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="64sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:letterSpacing="0.18"
+            android:shadowColor="#9D7BFF"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="50" />
+
+        <TextView
+            android:id="@+id/taglineText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Budget Smarter. Live Better."
+            android:textColor="#AAAAAA"
+            android:textSize="16sp"
+            android:alpha="0"
+            android:layout_marginTop="8dp" />
+
+        <ProgressBar
+            android:id="@+id/loadingBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="220dp"
+            android:layout_height="8dp"
+            android:layout_marginTop="30dp"
+            android:max="100"
+            android:progress="0"/>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,72 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:backgroundTint="@color/bg_dark"
+    android:background="@drawable/glass_button"
+    android:padding="15dp"
+    android:layout_marginBottom="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food"
+        android:textColor="@color/text_white"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/amountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R 120.00"
+        android:textColor="@color/purple_light"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/categoryText"
+        android:layout_width="wrap_content"
+        android:text="Groceries"
+        android:textColor="@color/text_fade"
+        android:layout_marginTop="5dp"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12/05/2026"
+        android:textColor="@color/text_fade"
+        android:layout_marginTop="5dp"/>
+
+    <!-- ACTIONS -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/editBtn"
+            android:text="Edit"
+            android:layout_weight="1"
+            android:background="@drawable/glass_button"
+            android:textColor="@color/text_white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/deleteBtn"
+            android:text="Delete"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/glass_button"
+            android:textColor="@color/text_white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
