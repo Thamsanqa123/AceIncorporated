@@ -6,13 +6,14 @@ AceInc is an Android expense tracking application built for students and young p
 
 ---
 ## Git: https://github.com/Thamsanqa123/AceIncorporated
+## Demonstration vid:https://youtu.be/PSi0Tgtor3Y?si=7W1jZyUfsYoJ2gHU
 ## App Preview
 
 > Screenshots below are taken directly from the running application.
 
 | Screen | Preview |
 |--------|---------|
-| Animated Splash Screen | *(add screenshot)* |
+| Animated Splash Screen | ![Dashboard](file:///C:/Users/JIZO/Downloads/budget%20boss.jpeg)|
 | Account — Username Display | *(add screenshot)* |
 | Dashboard | *(add screenshot)* |
 | Add Expense | *(add screenshot)* |
