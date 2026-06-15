@@ -15,7 +15,7 @@ AceInc is an Android expense tracking application built for students and young p
 | Screen | Preview |
 |--------|---------|
 | Animated Splash Screen | |
-| Login and registration | |
+| Login and registration |<img width="200" height="400" alt="signup" src="https://github.com/user-attachments/assets/031ca980-9ec8-48bb-8822-30091aa0a2c7" /> <img width="720" height="1600" alt="Login" src="https://github.com/user-attachments/assets/33516aa4-55ea-4e33-b495-f71dbd616b8b" /> |
 | Account — Username Display | <img width="200" height="400" alt="username" src="https://github.com/user-attachments/assets/0a8f4be1-979d-498f-9838-ab1e5d005526" /> |
 | Dashboard and chart analytics | <img width="200" height="400" alt="analytics" src="https://github.com/user-attachments/assets/f19bbe94-c0b8-493a-aebd-6b9dd04a66f1" /> |
 | Budget Boss Game | <img width="200" height="400" alt="budget boss" src="https://github.com/user-attachments/assets/e77f0ecb-6f66-4dea-bc7c-6fdad70089fe" /> <img width="200" height="400" alt="Scores" src="https://github.com/user-attachments/assets/f9011da2-c256-4d6a-8e97-6ddd32785e7b" /> |
